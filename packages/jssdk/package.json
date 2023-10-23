@@ -1,0 +1,29 @@
+{
+  "name": "@rubyone/jssdk",
+  "version": "0.1.1",
+  "description": "Ruby One JavaScript SDK",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "dev": "tsup --watch",
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ruby-Protocol/ruby-one-jssdk",
+    "directory": "packages/jssdk"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "royweb",
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^7.2.0",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "eventemitter3": "^5.0.1"
+  }
+}
